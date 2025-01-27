@@ -1,0 +1,26 @@
+@use './helpers/abstracts' as *;
+header {
+	margin-bottom: 3.6rem;
+}
+.container__in {
+	display: flex;
+	position: relative;
+	column-gap: calc(50% - 41rem); //Мінус розмір НАВ та половина розміру ИМГ
+}
+.nav__header {
+	display: flex;
+	align-items: center;
+	& .ul__header {
+		display: flex;
+		column-gap: 3rem;
+		align-items: center;
+		& .li__header {
+			display: flex;
+		}
+		& .link__header {
+			text-decoration: none;
+			color: $color_black;
+			font-size: $font_title;
+		}
+	}
+}

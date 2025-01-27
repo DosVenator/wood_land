@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-	// max-width: 126rem;
+	max-width: 144rem;
 	width: 100%;
 
 	margin: 0 auto;
@@ -44,14 +44,14 @@ body {
 
 header,
 footer {
-	padding: 30px 0;
+	// padding: 30px 0;
 	display: flex;
 	align-items: center;
-	min-height: 120px;
+	// min-height: 120px;
 	font-size: 50px;
 	text-align: center;
 	justify-content: center;
-	background-color: #ccc;
+	background-color: $color_white;
 
 	// @include bp($point_2, min) {
 	// 	background-color: tomato;
